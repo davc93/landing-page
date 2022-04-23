@@ -46,42 +46,42 @@ body, p {
 }
 
 h1 {
-	color: #252936;
+	color: #666666;
 	font-weight: 500;
 	font-size: 3.25rem;
 	line-height: 4rem;
 }
 
 h2 {
-	color: #252936;
+	color: #666666;
 	font-weight: 500;
 	font-size: 2.5rem;
 	line-height: 3.25rem;
 }
 
 h3 {
-	color: #252936;
+	color: #666666;
 	font-weight: 500;
 	font-size: 1.875rem;
 	line-height: 2.5rem;
 }
 
 h4 {
-	color: #252936;
+	color: #666666;
 	font-weight: 500;
 	font-size: 1.5rem;
 	line-height: 2rem;
 }
 
 h5 {
-	color: #252936;
+	color: #666666;
 	font-weight: 500;
 	font-size: 1.25rem;
 	line-height: 1.625rem;
 }
 
 h6 {
-	color: #252936;
+	color: #666666;
 	font-weight: 500;
 	font-size: 1rem;
 	line-height: 1.375rem;
@@ -182,9 +182,9 @@ a:hover {
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.5rem 2.375rem 1.5rem 2.375rem;
-	border: 2px solid #252936;
+	border: 0px solid #252936;
 	border-radius: 32px;
-	background-color: transparent;
+	background-color: #FE4A49;
 	color: #252936;
 	font-weight: 400;
 	font-size: 1rem;
@@ -202,20 +202,20 @@ a:hover {
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.875rem 3rem 1.875rem 3rem;
-	border: 2px solid #252936;
-	border-radius: 32px;
-	background-color: transparent;
+	border: 0px solid #252936;
+	border-radius: 3px;
+	background-color: #FE4A49;
 	color: #252936;
 	font-weight: 400;
-	font-size: 1rem;
+	font-size: 22px;
 	line-height: 0;
 	text-decoration: none;
 	transition: all 0.2s;
 }
-
+ 
 .btn-outline-lg:hover {
-	background-color: #252936;
-	color: #ffffff;
+	/* background-color: #252936;
+	color: #ffffff; */
 	text-decoration: none;
 }
 
@@ -284,9 +284,9 @@ a:hover {
 	display: inline-block;
 	width: 100%;
 	height: 3.75rem;
-	border: 2px solid #25563f;
+	border: 0px solid #25563f;
 	border-radius: 32px;
-	background-color: #25563f;
+	background-color: #5B63B7;
 	color: #ffffff;
 	font-weight: 400;
 	font-size: 1rem;
@@ -324,8 +324,7 @@ a:hover {
 }
 
 .navbar .logo-image {
-	width: 134px;
-	height: 30px;
+	width: 250px;
 	margin-top: 0.5rem;
 	margin-bottom: 1.25rem;
 }
@@ -365,25 +364,25 @@ a:hover {
 header {
 	padding-top: 13rem;
 	padding-bottom: 9rem;
-	background: linear-gradient(to bottom right, rgba(28, 54, 51, 0.7), rgba(28, 54, 51, 0.7)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(100deg,#9296f0 0%,#5b63b7 100%);
 	background-size: cover;
 	text-align: center;
 }
 
 header .h1-large {
 	margin-bottom: 2.5rem;
-	color: #ffffff;
+	color: #000000;
 }
 
 header .btn-outline-lg {
-	border: 2px solid #ffffff;
+	border: 0px solid #9e8f8f;
 	color: #ffffff;
 }
-
+/* 
 header .btn-outline-lg:hover {
 	background-color: #ffffff;
 	color: #252936;
-}
+} */
 
 
 /********************/
@@ -401,7 +400,7 @@ header .btn-outline-lg:hover {
 
 .services .fas {
 	margin-bottom: 1.5rem;
-	color: #25563f;
+	color: #5B63B7;
 	font-size: 4.75rem;
 }
 
