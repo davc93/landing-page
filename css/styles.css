@@ -126,13 +126,13 @@ ul {
 }
 
 a {
-	color: #667077;
-	text-decoration: underline;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 a:hover {
-	color: #667077;
-	text-decoration: underline;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 .bg-gray {
@@ -175,17 +175,17 @@ a:hover {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #25563f; /* needs to stay here because of the color property of a tag */
+	color: #ffffff; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.5rem 2.375rem 1.5rem 2.375rem;
-	border: 0px solid #252936;
+	
 	border-radius: 32px;
 	background-color: #FE4A49;
-	color: #252936;
+	color: #ffffff;
 	font-weight: 400;
 	font-size: 1rem;
 	line-height: 0;
@@ -194,7 +194,6 @@ a:hover {
 }
 
 .btn-outline-reg:hover {
-	background-color: #252936;
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -202,10 +201,25 @@ a:hover {
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.875rem 3rem 1.875rem 3rem;
-	border: 0px solid #252936;
+	
 	border-radius: 3px;
 	background-color: #FE4A49;
-	color: #252936;
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 0;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+
+.btn-outline-lg-secundary {
+	display: inline-block;
+	padding: 1.875rem 3rem 1.875rem 3rem;
+	
+	border-radius: 3px;
+	background-color: #5B63B7;
+	color: #ffffff;
 	font-weight: 400;
 	font-size: 22px;
 	line-height: 0;
@@ -347,6 +361,7 @@ a:hover {
 
 .navbar ul li {
 	padding: 0 0.75rem 0.5rem 0.75rem;
+	max-width: 150px;
 }
 
 .navbar ul a {
@@ -436,7 +451,6 @@ header .btn-outline-lg:hover {
 .invite {
 	padding-top: 9rem;
 	padding-bottom: 9rem;
-	background-color: #3f465c;
 	text-align: center;
 }
 
@@ -446,8 +460,8 @@ header .btn-outline-lg:hover {
 
 .invite h2,
 .invite p {
-	color: #ffffff;
-	opacity: 0.7;
+	color: #666666;
+	
 }
 
 .invite h2 {
@@ -458,16 +472,7 @@ header .btn-outline-lg:hover {
 	margin-bottom: 2.25rem;
 }
 
-.invite .btn-outline-reg {
-	border: 2px solid #ffffff;
-	color: #ffffff;
-	opacity: 0.7;
-}
 
-.invite .btn-outline-reg:hover { 
-	background-color: #ffffff;
-	color: #667077;
-}
 
 
 /********************/
